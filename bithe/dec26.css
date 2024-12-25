@@ -1,0 +1,31 @@
+/* Custom Styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.country-card {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.country-card img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.country-detail {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.country-detail .col-md-6 {
+    margin-bottom: 15px;
+}
+
+.weather-details {
+    margin-top: 20px;
+}
